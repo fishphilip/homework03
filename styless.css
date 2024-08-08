@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Page {
+    display: flex;
+    flex-direction: column;
+}
+
+.Top {
+    display: flex;
+    justify-content: space-between;
+    min-width: 800px;
+    height: 100px;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 8px silver;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.Top img {
+    width: 300px;
+}
+
+.Right img {
+    width: 2rem;
+}
+
+.Middle ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Right ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.Main {
+    display: flex;
+    min-width: 1000px;
+    height: 800px;
+}
+
+.My_Cart {
+    margin-left: 28%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 200px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    gap: 50px;
+}
+
+.Center img {
+    width: 30px;
+    height: 30px;
+}
+
+.Promotion_Code img{
+    width: 20px;
+}
+
+.Center_left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.Google {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    height: 45%;
+    border-radius: 15px;
+}
+
+
+.Docs {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    border-radius: 15px;
+    color: white;
+    gap: 15px;
+    padding: 30px;
+}
+
+.googleDocs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Slides {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+    gap: 15px;
+    padding: 30px;
+}
+
+.googleSlide {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Center_Right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Order_Info {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 30px;
+    height: fit-content;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.Sub_Total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Promotion_Code {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    gap: 10px;
+}
+
+.Promotion_Code > input {
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.Total_payment {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Stang {
+    color: mediumspringgreen;
+    font-size: 20px;
+}
+
+.Apply {
+    color: mediumspringgreen;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 2px solid mediumspringgreen;
+}
+
+.Checkout {
+    background-color: mediumspringgreen;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 2px solid mediumspringgreen;
+    font-weight: bold;
+}
